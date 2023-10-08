@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media screen and ( min-width: 1400px){
+*{
+    box-sizing: border-box;
+   
+}
+h1{
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+   font-size: 55px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 101.385%;
+   /* margin-left: 35px; */
+}
+ .div1 p{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+     font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    width: 664px;
+}
+.noroot{
+   top: 19%;
+    right: 7%;
+    position: absolute;
+  
+   width: 314px;
+}
+.div1{
+    display: flex;
+    justify-content: space-around;
+}
+.photo{
+    width: 232px;
+}
+.prg{
+    width: 150px;
+    color: #000;
+     font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%; 
+}
+h4{
+    color: #000;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+     font-weight: 700;
+    line-height: 130%
+}
+.ellipse{
+    width: 400px;
+    position: absolute;
+    z-index: -1;
+    top: 49%;
+    left: 68%;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+}
+@media screen and ( min-width:830px ) and (max-width:1399px){
+    *{
+        box-sizing: border-box;
+       
+    }
+    .div1{
+        margin-top: 56px;
+        margin-left: 72px;
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+    }
+    h1{
+        color: #000;
+        font-family: 'Roboto Slab', serif;
+       font-size: 32px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 101.385%;
+       /* margin-left: 35px; */
+    }
+    .div1prg{
+        width: 50%;
+    }
+     .div1 p{
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+         font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 36px */
+       width: 100%;
+    }
+    .div1foto{
+            width: 50%;
+        }
+    
+    .noroot{
+        width: 181px;
+       top: 21%;
+        right: 6%;
+        position: absolute;
+       width: 181px;
+    }
+    
+    .prg{
+        width: 150px;
+        color: #000;
+         font-family: Roboto;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%; 
+    }
+    h4{
+        color: #000;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+         font-weight: 700;
+        line-height: 130%
+    }
+    .ellipse{
+        width: 220px;
+        position: absolute;
+        z-index: -1;
+        top: 42%;
+        right: 4%;
+    }
+    section{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media screen and ( min-width: 375px) and (max-width: 829px){
+    *{
+        box-sizing: border-box;
+       
+    }
+    .div1{
+        margin-top: 50px;
+        margin-left: 65px;
+        justify-content: space-around;
+        width: 90%;
+    }
+    h1{
+        color: #000;
+        font-family: 'Roboto Slab', serif;
+       font-size: 26px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 101.385%;
+       /* margin-left: 35px; */
+    }
+    .div1prg{
+        width: 90%;
+    }
+     .div1 p{
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+         font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 36px */
+       width: 100%;
+    }
+    .div1foto{
+            width: 90%;
+            display:flex;
+        justify-content: center;
+        }
+    
+    .noroot{
+        margin-top: 10px;
+        width: 146px;
+      
+    }
+    
+    .prg{
+        width: 150px;
+        color: #000;
+         font-family: Roboto;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%; 
+    }
+    h4{
+        color: #000;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+         font-weight: 700;
+        line-height: 130%
+    }
+    .ellipse{
+        width: 170px;
+        position: absolute;
+        z-index: -1;
+        top: 57%;
+        right: 26%;
+    }
+    section{
+        margin-top: 50px;
+        margin-left: 65px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .section-div{
+        width: 50%;
+    }
+}
